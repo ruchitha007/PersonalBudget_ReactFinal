@@ -1,0 +1,223 @@
+
+.personalbudget {
+    text-align: center;
+    
+    top: 10%;
+    left: 50%;
+    transform: translateX(0%);
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0;
+    margin: 0;
+    z-index: 1000;
+}
+
+.logout-button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: rgb(188, 56, 166);
+    color: #fefefe;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dashboard {
+    margin-top:0%; 
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(245, 242, 242, 0.1);
+}
+
+.dashboard ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dashboard ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.dashboard button {
+    background-color: #2f1fc2;
+    color: #fffefe;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dashboard button:hover {
+    background-color: rgb(31, 157, 192);
+}
+
+.centered-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .add-budget-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .budget-list-component {
+    display: flex;
+     justify-content: center;
+    align-items: center; 
+    height: 50vh;
+  }
+  
+  .budget-chart-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+  }
+  
+  .add-budget-capacity-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+
+
+.dashboard-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #958484;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(91, 76, 76, 0.2);
+    max-width: 400px; 
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .dashboard-modal h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .dashboard-modal p {
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-modal button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: rgb(157, 76, 175);
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .dashboard-modal button:hover {
+    background-color: rgb(40, 220, 8);
+  }
+
+.dashboard {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  margin-top: 0; 
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(245, 242, 242, 0.1);
+}
+
+.dashboard ul {
+  list-style-type: none;
+  padding: 0;
+  display: grid; 
+  grid-template-columns: repeat(2, 1fr); 
+  grid-gap: 10px; 
+  max-width: 400px; 
+}
+
+.dashboard ul li {
+  margin: 5px; 
+}
+
+.dashboard button {
+  background-color: rgb(24, 21, 178);
+  color: #ffffff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%; 
+}
+
+.dashboard button:hover {
+  background-color: #bdc00e;
+}
+
+.dashboard ul {
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: auto auto; 
+  grid-gap: 10px;
+  max-width: 400px;
+  margin: 0 auto; 
+  text-align: center;
+}
+
+.dashboard ul li {
+  margin: 5px;
+}
+
+.dashboard button {
+  background-color: rgba(113, 21, 178, 0.76);
+  color: #ffffff;
+  padding: 20px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.dashboard ul li:nth-child(1) {
+  grid-column: 1 / span 2; 
+  grid-row: 1; 
+}
+
+.dashboard ul li:nth-child(2) {
+  grid-column: 1; 
+  grid-row: 2; 
+}
+
+.dashboard ul li:nth-child(3) {
+  grid-column: 2; 
+  grid-row: 2; 
+}
+
+.dashboard ul li:nth-child(4) {
+  grid-column: 1 / span 2; 
+  grid-row: 3; 
+}
+
+.dashboard button:hover {
+  background-color: #0ea8c0;
+  transform: scale(1.05);
+}
